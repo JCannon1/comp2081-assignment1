@@ -1,0 +1,37 @@
+/* Make all headings red (Optional) */
+/*h2 {
+    color: red;
+}*/
+/* Made the container border red */
+div[class^="container"]{
+    border: 5px solid red;
+    padding-top: 101px;
+}
+/* Made each row black */
+.row {
+    border: 5px solid black;
+}
+/* Added a white border to each column */
+div[class^="col"] {
+    border: 5px solid white;
+}
+main {
+    /* Added sans-serif fonts to the main text */
+    font-family: "Afta Sans", "Futura" Sans-Serif;
+    background-color: black;
+    color: white;
+}
+/* Made the navbar collapse when in mobile view */
+div[class="collapse navbar-collapse"] {
+    border: none;
+}
+/* Changed the lacrosse image size to fit at every breakpoint */
+.lacrosse {
+    max-width: 100%;
+    height: auto;
+    width: auto; 
+}
+
+
+
+     
